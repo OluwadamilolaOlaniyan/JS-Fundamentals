@@ -1,4 +1,4 @@
-const firstArg = Process.argv[2];
+const firstArg = process.argv[2];
 
 const numValue = Number(firstArg);
 
