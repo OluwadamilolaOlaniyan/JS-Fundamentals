@@ -1,4 +1,4 @@
-const numberOfArguments = process.argv.length;
+const numberOfArguments = process.argv.length - 2;
 
 if (numberOfArguments === 0) {
     console.log("No argument");
